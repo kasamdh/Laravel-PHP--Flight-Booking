@@ -19,7 +19,9 @@ Route::get('/', function () {
 //     return view('booking.main.createreservation');
 // });
 
-Route::get('/Flights','BookingController@index');
+
+// Route to get clitnt info
+Route::get('/Flights','ClientController@index');
 
 
 
