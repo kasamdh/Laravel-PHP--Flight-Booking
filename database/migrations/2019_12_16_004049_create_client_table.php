@@ -24,6 +24,7 @@ class CreateClientTable extends Migration
             $table->string('iata_country_code');
             $table->timestamps();
         });
+         DB::statement('ALTER TABLE client AUTO_INCREMENT = 10000;');
     }
 
     /**

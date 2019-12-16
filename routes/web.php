@@ -15,8 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Flights', function () {
-    return view('booking.main.createreservation');
-});
+// Route::get('/Flights', function () {
+//     return view('booking.main.createreservation');
+// });
+
+Route::get('/Flights','BookingController@index');
 
 
