@@ -22,3 +22,7 @@ Route::get('/', function () {
 Route::get('/Flights','BookingController@index');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
