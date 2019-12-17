@@ -14,7 +14,7 @@ class Client extends Model
         'last_name',
         'phone',
         'email',
-        'passport';
+        'passport',
         'iata_country_code'       
     ];
 
