@@ -39,24 +39,23 @@ class ClientController extends Controller
     public function store(Request $request)
     {
         $validateData = $request->validate([
-            ''=>'required',
-            
-            ''=>'required',
-            ''=>'required_if:type,individual',
-            ''=>'required_if:type,individual',
-            ''=>'required_if:type,individual',
-            ''=>'required',
+            'first_name'=>'required',
+            'middle_name'=>'required_if:type,individual',
+            'last_name'=>'required',
+            'phone'=>'required_if:type,individual',
+            'email'=>'required_if:type,individual',
+            'passport'=>'required_if:type,individual',
+            'iata_country_code'=>'required_if:type,individual',
           ]);
         DB::table('client')
         ->insert([
-            'first_name'=>$request->get(''),
-            'middle_name' => $request->get(''),
-            'last_name' => $request->get(''),
-            'phone' => $request->get(''),
-            'email' => $request->get(''),
-            'passport' => $request->get(''),
-            'iata_country_code' => $request->get(''),
-            'active_12' => $request->get(''),
+            'first_name'=>$request->get('first_name'),
+            'middle_name' => $request->get('middle_name'),
+            'last_name' => $request->get('last_name'),
+            'phone' => $request->get('phone'),
+            'email' => $request->get('email'),
+            'passport' => $request->get('passport'),
+            'iata_country_code' => $request->get('iata_country_code'),
             'created_at'=>Carbon::now(),
             'updated_at'=>carbon::now(),
 
