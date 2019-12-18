@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\client;
 
+use Carbon\Carbon;
+
 class ClientController extends Controller
 {
     /**
@@ -36,6 +38,30 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
+        $validateData = $request->validate([
+            ''=>'required',
+            
+            ''=>'required',
+            ''=>'required_if:type,individual',
+            ''=>'required_if:type,individual',
+            ''=>'required_if:type,individual',
+            ''=>'required',
+          ]);
+        DB::table('client')
+        ->insert([
+            'first_name'=>$request->get(''),
+            'middle_name' => $request->get(''),
+            'last_name' => $request->get(''),
+            'phone' => $request->get(''),
+            'email' => $request->get(''),
+            'passport' => $request->get(''),
+            'iata_country_code' => $request->get(''),
+            'active_12' => $request->get(''),
+            'created_at'=>Carbon::now(),
+            'updated_at'=>carbon::now(),
+
+
+        ]);
         
     }
 
