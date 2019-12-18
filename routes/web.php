@@ -22,6 +22,10 @@ Route::get('/', function () {
 
 // Route to get clitnt info
 Route::get('/Flights','ClientController@index');
+// Route to post clitnt info
+Route::post('/store','ClientController@store');
+
+
 
 
 
