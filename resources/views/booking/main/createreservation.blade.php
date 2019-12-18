@@ -4,7 +4,25 @@
 
 @section('content')
 
-<form>
+<form action="\store" method="POST" >
+@csrf
+          @if (session()->has('success'))
+            <div class="alert alert-success">
+          @if(is_array(session()->get('success')))
+              <ul>
+            @foreach (session()->get('success') as $message)
+                <li>{{ $message }}</li>
+            @endforeach
+              </ul>
+          @else
+            {{ session()->get('success') }}
+          @endif
+          </div>
+          @endif
+
+          @foreach($errors->all() as $error)
+            <p class="alert alert-danger"> {{$error}}</p>
+          @endforeach
 
 
 <div class="form-row p-3 shadow bg-white">
@@ -86,6 +104,8 @@
             <input type="text" class="form-control" name="country code" id="exampleInputPassword1" placeholder="Enter IATA Country Code">
         </div>
     </div>
+
+    
     <button type="submit" class="btn btn-danger mx-2" style="width: 200px;">CANCEL</button>
     <button type="submit" class="btn btn-primary" style="width: 200px;">SUBMIT</button>
     
