@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\client;
+
 class ClientController extends Controller
 {
     /**
@@ -34,7 +36,7 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
