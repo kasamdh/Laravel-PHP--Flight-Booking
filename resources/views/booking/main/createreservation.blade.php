@@ -4,9 +4,7 @@
 
 @section('content')
 
-
-<nav class="navbar navbar-dark bg-primary p-3">
-  <!-- Navbar content -->
+<form>
 
 
 <div class="form-row p-3 shadow bg-white">
@@ -93,10 +91,10 @@
     
 </div>
 
-</nav>
 
 
 
+</form>
 
 
 @endsection

@@ -61,6 +61,9 @@ class ClientController extends Controller
 
 
         ]);
+
+        return redirect()->action('/Flights','ClientController@index')
+                        ->withSuccess(['Client Info is Created']);
         
     }
 
