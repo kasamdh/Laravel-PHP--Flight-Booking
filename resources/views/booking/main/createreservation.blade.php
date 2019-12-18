@@ -29,19 +29,19 @@
     <div class="col-lg-4">
         <div class="form-group">
             <label for="exampleInputPassword1">First Name</label>
-            <input type="text" class="form-control" name="fname" id="exampleInputPassword1" placeholder="Enter First Name">
+            <input type="text" class="form-control" name="first_name" id="exampleInputPassword1" placeholder="Enter First Name">
         </div>
     </div>
     <div class="col-lg-4">
     <div class="form-group">
             <label for="exampleInputPassword1">Middle Name</label>
-            <input type="text" class="form-control" name= "mname" id="exampleInputPassword1" placeholder="Enter Middle Name">
+            <input type="text" class="form-control" name= "middle_name" id="exampleInputPassword1" placeholder="Enter Middle Name">
         </div>
     </div>
     <div class="col-lg-4">
     <div class="form-group">
             <label for="exampleInputPassword1">Last Name</label>
-            <input type="text" class="form-control" name="lname" id="exampleInputPassword1" placeholder="Enter Last Name">
+            <input type="text" class="form-control" name="last_name" id="exampleInputPassword1" placeholder="Enter Last Name">
         </div>
     </div>
     <div class="col-lg-6">
@@ -101,7 +101,7 @@
     <div class="col-lg-4">
     <div class="form-group">
             <label for="exampleInputPassword1">IATA Country Code</label>
-            <input type="text" class="form-control" name="country code" id="exampleInputPassword1" placeholder="Enter IATA Country Code">
+            <input type="text" class="form-control" name="iata_country_code" id="exampleInputPassword1" placeholder="Enter IATA Country Code">
         </div>
     </div>
 

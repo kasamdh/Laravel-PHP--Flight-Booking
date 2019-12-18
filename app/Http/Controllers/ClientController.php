@@ -8,6 +8,8 @@ use App\client;
 
 use Carbon\Carbon;
 
+use DB;
+
 class ClientController extends Controller
 {
     /**
@@ -47,6 +49,7 @@ class ClientController extends Controller
             'passport'=>'required_if:type,individual',
             'iata_country_code'=>'required_if:type,individual',
           ]);
+
         DB::table('client')
         ->insert([
             'first_name'=>$request->get('first_name'),
