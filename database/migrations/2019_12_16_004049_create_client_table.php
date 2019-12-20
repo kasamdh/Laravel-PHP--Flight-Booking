@@ -20,7 +20,13 @@ class CreateClientTable extends Migration
             $table->string('last_name');
             $table->bigInteger('phone');
             $table->string('email');
+            $table->string('street_name');
+            $table->string('apartment');
+            $table->string('city');
+            $table->string('country');
             $table->string('passport');
+            $table->string('zipcode');
+            $table->string('state');
             $table->string('iata_country_code');
             $table->timestamps();
         });
