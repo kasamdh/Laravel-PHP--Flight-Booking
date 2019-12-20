@@ -5,7 +5,7 @@
 @section('content')
 
 <form action="\store" method="POST" >
-@csrf
+    @csrf
           @if (session()->has('success'))
             <div class="alert alert-success">
           @if(is_array(session()->get('success')))
@@ -23,8 +23,7 @@
           @foreach($errors->all() as $error)
             <p class="alert alert-danger"> {{$error}}</p>
           @endforeach
-
-
+          
 <div class="form-row p-3 shadow bg-white">
     <div class="col-lg-4">
         <div class="form-group">
@@ -77,7 +76,7 @@
     <div class="col-lg-4">
     <div class="form-group">
             <label for="exampleInputPassword1">State</label>
-            <input type="text" class="form-control" name = "state "id="exampleInputPassword1" placeholder="Enter State">
+            <input type="text" class="form-control" name = "state" id="exampleInputPassword1" placeholder="Enter State">
         </div>
     </div>
     <div class="col-lg-4">
