@@ -40,15 +40,15 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
-        // $validateData = $request->validate([
-        //     'first_name'=>'required',
-        //     'middle_name'=>'required_if:type,individual',
-        //     'last_name'=>'required',
-        //     'phone'=>'required_if:type,individual',
-        //     'email'=>'required_if:type,individual',
-        //     'passport'=>'required_if:type,individual',
-        //     'iata_country_code'=>'required_if:type,individual',
-        //   ]);
+        $validateData = $request->validate([
+            'first_name'=>'required',
+            'middle_name'=>'required_if:type,individual',
+            'last_name'=>'required',
+            'phone'=>'required_if:type,individual',
+            'email'=>'required_if:type,individual',
+            'passport'=>'required_if:type,individual',
+            'iata_country_code'=>'required_if:type,individual',
+          ]);
 
         DB::table('client')
         ->insert([
