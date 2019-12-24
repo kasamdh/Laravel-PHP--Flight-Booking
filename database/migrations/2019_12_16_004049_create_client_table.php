@@ -14,22 +14,22 @@ class CreateClientTable extends Migration
     public function up()
     {
         Schema::create('client', function (Blueprint $table) {
-            // $table->bigIncrements('client_id');
-            // $table->string('first_name')->nullable();
-            // $table->string('middle_name')->nullable();
-            // $table->string('last_name')->nullable();
-            // $table->bigInteger('phone')->nullable();
-            // $table->string('email')->nullable();
-            // $table->string('street_name')->nullable();
-            // $table->string('apartment')->nullable();
-            // $table->string('city')->nullable();
-            // $table->string('country')->nullable();
-            // $table->string('passport')->nullable();
-            // $table->string('zipcode')->nullable();
-            // $table->string('state')->nullable();
-            // $table->string('iata_country_code')->nullable();
+            $table->bigIncrements('client_id');
+            $table->string('first_name')->nullable();
+            $table->string('middle_name')->nullable();
+            $table->string('last_name')->nullable();
+            $table->bigInteger('phone')->nullable();
+            $table->string('email')->nullable();
+            $table->string('street_name')->nullable();
+            $table->string('apartment')->nullable();
+            $table->string('city')->nullable();
+            $table->string('country')->nullable();
+            $table->string('passport')->nullable();
+            $table->string('zipcode')->nullable();
+            $table->string('state')->nullable();
+            $table->string('iata_country_code')->nullable();
             
-            // $table->timestamps();
+            $table->timestamps();
             
             
 
