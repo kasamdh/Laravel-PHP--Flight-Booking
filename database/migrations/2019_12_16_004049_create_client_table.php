@@ -30,7 +30,6 @@ class CreateClientTable extends Migration
             $table->string('iata_country_code')->nullable();
             
             $table->timestamps();
-            $table->timestamps();
             
             
 
