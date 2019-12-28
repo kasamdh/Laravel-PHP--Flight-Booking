@@ -19,7 +19,7 @@ class ClientController extends Controller
      */
     public function index()
     {
-        return view('booking.main.createreservation');
+        // return view('booking.main.createreservation');
     }
 
     /**
