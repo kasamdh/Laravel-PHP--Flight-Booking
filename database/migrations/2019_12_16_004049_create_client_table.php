@@ -28,7 +28,7 @@ class CreateClientTable extends Migration
             $table->string('zipcode')->nullable();
             $table->string('state')->nullable();
             $table->string('iata_country_code')->nullable();
-            $table->string('iata_country_code')->nullable();
+            // $table->string('iata_country_code')->nullable();
             
             $table->timestamps();
             
