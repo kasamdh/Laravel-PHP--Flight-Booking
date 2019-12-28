@@ -4,7 +4,7 @@
 
 @section('content')
 
-<form action="\store" method="POST" >
+<form action="store" method="POST" >
     @csrf
           @if (session()->has('success'))
             <div class="alert alert-success">
