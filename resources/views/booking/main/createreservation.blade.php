@@ -4,7 +4,7 @@
 
 @section('content')
 
-<form action="store" method="POST" >
+<form action="\store" method="POST" >
     @csrf
           @if (session()->has('success'))
             <div class="alert alert-success">
@@ -27,31 +27,31 @@
 <div class="form-row p-3 shadow bg-white">
     <div class="col-lg-4">
         <div class="form-group">
-            <label for="exampleInputPassword1">First Name</label>
+            <label for="firstname">First Name</label>
             <input type="text" class="form-control" name="first_name" id="exampleInputPassword1" placeholder="Enter First Name">
         </div>
     </div>
     <div class="col-lg-4">
     <div class="form-group">
-            <label for="exampleInputPassword1">Middle Name</label>
+            <label for="middlename">Middle Name</label>
             <input type="text" class="form-control" name= "middle_name" id="exampleInputPassword1" placeholder="Enter Middle Name">
         </div>
     </div>
     <div class="col-lg-4">
     <div class="form-group">
-            <label for="exampleInputPassword1">Last Name</label>
+            <label for="lastname">Last Name</label>
             <input type="text" class="form-control" name="last_name" id="exampleInputPassword1" placeholder="Enter Last Name">
         </div>
     </div>
     <div class="col-lg-6">
         <div class="form-group">
-            <label for="exampleInputPassword1">Phone</label>
+            <label for="phone">Phone</label>
             <input type="text" class="form-control" name="phone"id="exampleInputPassword1" placeholder="Enter Phone Number">
         </div>
     </div>
     <div class="col-lg-6">
     <div class="form-group">
-            <label for="exampleInputPassword1">Email</label>
+            <label for="email">Email</label>
             <input type="email" class="form-control" email="email" id="exampleInputPassword1" placeholder="Enter Email">
         </div>
     </div>
@@ -63,49 +63,49 @@
     </div>
     <div class="col-lg-2">
     <div class="form-group">
-            <label for="exampleInputPassword1">Apt #</label>
+            <label for="apt">Apt #</label>
             <input type="text" class="form-control" name="aptnum" id="exampleInputPassword1" placeholder="Enter Apt#">
         </div>
     </div>
     <div class="col-lg-4">
         <div class="form-group">
-            <label for="exampleInputPassword1">City</label>
+            <label for="city">City</label>
             <input type="text" class="form-control" name="city" id="exampleInputPassword1" placeholder="Enter City">
         </div>
     </div>
     <div class="col-lg-4">
     <div class="form-group">
-            <label for="exampleInputPassword1">State</label>
+            <label for="state">State</label>
             <input type="text" class="form-control" name = "state" id="exampleInputPassword1" placeholder="Enter State">
         </div>
     </div>
     <div class="col-lg-4">
         <div class="form-group">
-            <label for="exampleInputPassword1">Zip Code</label>
+            <label for="zip">Zip Code</label>
             <input type="text" class="form-control" name="zipcode" id="exampleInputPassword1" placeholder="Enter Zip Code">
         </div>
     </div>
     <div class="col-lg-4">
     <div class="form-group">
-            <label for="exampleInputPassword1">Country</label>
+            <label for="trycoun">Country</label>
             <input type="text" class="form-control" name= "country"id="exampleInputPassword1" placeholder="Enter Country">
         </div>
     </div>
     <div class="col-lg-4">
         <div class="form-group">
-            <label for="exampleInputPassword1">Pasport</label>
+            <label for="passport">Pasport</label>
             <input type="text" class="form-control" name="passport" id="exampleInputPassword1" placeholder="Enter Passport">
         </div>
     </div>
     <div class="col-lg-4">
     <div class="form-group">
-            <label for="exampleInputPassword1">IATA Country Code</label>
+            <label for="ita">IATA Country Code</label>
             <input type="text" class="form-control" name="iata_country_code" id="exampleInputPassword1" placeholder="Enter IATA Country Code">
         </div>
     </div>
 
     
-    <button type="submit" class="btn btn-danger mx-2" style="width: 200px;">CANCEL</button>
+    <a href = "/"  class="btn btn-danger mx-2" style="width: 200px;">CANCEL</a>
     <button type="submit" class="btn btn-primary" style="width: 200px;">SUBMIT</button>
     
 </div>
