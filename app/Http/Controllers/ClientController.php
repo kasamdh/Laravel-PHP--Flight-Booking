@@ -46,6 +46,12 @@ class ClientController extends Controller
             'last_name'=>'required',
             'phone'=>'required_if:type,individual',
             'email'=>'required_if:type,individual',
+            'street_name'=>'required_if:type,individual',
+            'apartment'=>'required_if:type,individual',
+            'city'=>'required_if:type,individual',
+            'country'=>'required_if:type,individual',
+            'zipcode'=>'required_if:type,individual',
+            'state'=>'required_if:type,individual',
             'passport'=>'required_if:type,individual',
             'iata_country_code'=>'required_if:type,individual',
           ]);

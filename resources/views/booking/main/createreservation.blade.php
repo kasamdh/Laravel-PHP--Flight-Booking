@@ -58,13 +58,13 @@
     <div class="col-lg-10">
         <div class="form-group">
             <label for="exampleInputPassword1">Street Name </label>
-            <input type="text" class="form-control" name="stname" id="exampleInputPassword1" placeholder="Enter Street Name">
+            <input type="text" class="form-control" name="street_name" id="exampleInputPassword1" placeholder="Enter Street Name">
         </div>
     </div>
     <div class="col-lg-2">
     <div class="form-group">
             <label for="apt">Apt #</label>
-            <input type="text" class="form-control" name="aptnum" id="exampleInputPassword1" placeholder="Enter Apt#">
+            <input type="text" class="form-control" name="apartment" id="exampleInputPassword1" placeholder="Enter Apt#">
         </div>
     </div>
     <div class="col-lg-4">
