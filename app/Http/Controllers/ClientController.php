@@ -52,6 +52,7 @@ class ClientController extends Controller
             'country'=>'required_if:type,individual',
             'zipcode'=>'required_if:type,individual',
             'state'=>'required_if:type,individual',
+
             'passport'=>'required_if:type,individual',
             'iata_country_code'=>'required_if:type,individual',
           ]);
@@ -62,7 +63,13 @@ class ClientController extends Controller
             'middle_name' => $request->get('middle_name'),
             'last_name' => $request->get('last_name'),
             'phone' => $request->get('phone'),
-            'email' => $request->get('email'),
+            'email' => $request->get('email'), 
+            'street_name'=>$request->get('street_name'),
+            'apartment'=>$request->get('apartment'),
+            'city'=>$request->get('city'),
+            'country'=>$request->get('country'),
+            'zipcode'=>$request->get('zipcode'),
+            'state'=>$request->get('state'),
             'passport' => $request->get('passport'),
             'iata_country_code' => $request->get('iata_country_code'),
             'created_at'=>Carbon::now(),
