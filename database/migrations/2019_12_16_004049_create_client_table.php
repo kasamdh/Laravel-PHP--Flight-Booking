@@ -18,12 +18,12 @@ class CreateClientTable extends Migration
             $table->string('first_name')->nullable();
             $table->string('middle_name')->nullable();
             $table->string('last_name')->nullable();
-            // $table->bigInteger('phone')->nullable();
+            $table->bigInteger('phone')->nullable();
             $table->string('email')->nullable();
             $table->string('street_name')->nullable();
             $table->string('apartment')->nullable();
             $table->string('city')->nullable();
-            //$table->string('country')->nullable();
+            $table->string('country')->nullable();
             $table->string('passport')->nullable();
             $table->string('zipcode')->nullable();
             $table->string('state')->nullable();
