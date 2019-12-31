@@ -24,7 +24,11 @@ class CreateClientTable extends Migration
             $table->string('apartment')->nullable();
             $table->string('city')->nullable();
             $table->string('country')->nullable();
-         
+            $table->string('passport')->nullable();
+            $table->string('zipcode')->nullable();
+            $table->string('state')->nullable();
+            $table->string('iata_country_code')->nullable();
+            $table->timestamps();
 
         });
          DB::statement('ALTER TABLE client AUTO_INCREMENT = 10000;');
