@@ -23,7 +23,7 @@ class CreateClientTable extends Migration
             $table->string('street_name')->nullable();
             $table->string('apartment')->nullable();
             $table->string('city')->nullable();
-            $table->string('country')->nullable();
+            //$table->string('country')->nullable();
             $table->string('passport')->nullable();
             $table->string('zipcode')->nullable();
             $table->string('state')->nullable();
