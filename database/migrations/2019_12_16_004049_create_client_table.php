@@ -31,7 +31,7 @@ class CreateClientTable extends Migration
             $table->timestamps();
 
         });
-        //  DB::statement('ALTER TABLE client AUTO_INCREMENT = 10000;');
+         DB::statement('ALTER TABLE client AUTO_INCREMENT = 10000;');
     }
 
     /**
