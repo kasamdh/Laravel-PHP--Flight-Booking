@@ -93,11 +93,11 @@
         </div>
     </div>
     <div class="col-lg-2">
-    <div class="form-group">
+    <!-- <div class="form-group">
             <label for="apt">Apt #</label>
             <input type="text" class="form-control" name="apartment" id="exampleInputPassword1" placeholder="Enter Apt#">
         </div>
-    </div>
+    </div> -->
     <div class="col-lg-4">
         <div class="form-group">
             <label for="city">City</label>
