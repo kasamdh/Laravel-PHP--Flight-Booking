@@ -81,10 +81,10 @@
         </div>
     </div>
     <div class="col-lg-6">
-    <div class="form-group">
+    <!-- <div class="form-group">
             <label for="email">Email</label>
             <input type="email" class="form-control" email="email" id="exampleInputPassword1" placeholder="Enter Email">
-        </div>
+        </div> -->
     </div>
     <div class="col-lg-10">
         <div class="form-group">
