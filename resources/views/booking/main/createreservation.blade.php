@@ -56,11 +56,11 @@
           @endforeach
           
 <div class="form-row p-3 shadow bg-white">
-    <!-- <div class="col-lg-4">
+    <div class="col-lg-4">
         <div class="form-group">
             <label for="firstname">First Name</label>
             <input type="text" class="form-control" name="first_name" id="exampleInputPassword1" placeholder="Enter First Name">
-        </div> -->
+        </div>
     </div>
     <div class="col-lg-4">
     <div class="form-group">
