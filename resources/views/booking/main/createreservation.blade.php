@@ -86,12 +86,12 @@
             <input type="email" class="form-control" email="email" id="exampleInputPassword1" placeholder="Enter Email">
         </div>
     </div>
-    <!-- <div class="col-lg-10">
+    <div class="col-lg-10">
         <div class="form-group">
             <label for="exampleInputPassword1">Street Name </label>
             <input type="text" class="form-control" name="street_name" id="exampleInputPassword1" placeholder="Enter Street Name">
         </div>
-    </div> -->
+    </div>
     <div class="col-lg-2">
     <div class="form-group">
             <label for="apt">Apt #</label>
