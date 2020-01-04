@@ -51,9 +51,7 @@
           </div>
           @endif
 
-          @foreach($errors->all() as $error)
-            <p class="alert alert-danger"> {{$error}}</p>
-          @endforeach
+        
           
 <div class="form-row p-3 shadow bg-white">
     <div class="col-lg-4">
