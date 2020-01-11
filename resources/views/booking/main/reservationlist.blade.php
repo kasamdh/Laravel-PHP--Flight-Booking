@@ -11,7 +11,7 @@
     <title>Reservation List</title>
   </head>
   <body>
-    <div class="container py-3">
+    <div class="container">
     <table class="table table-striped">
   <thead>
     <tr>
