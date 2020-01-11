@@ -127,4 +127,10 @@ class ClientController extends Controller
     {
         //
     }
+
+    public function list(){
+        return view('booking.main.reservationlist');
+
+
+    }
 }
