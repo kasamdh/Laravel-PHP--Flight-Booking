@@ -29,3 +29,4 @@ Route::get('ReservationList','ClientController@list');
 
 Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');
