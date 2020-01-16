@@ -25,8 +25,8 @@ Route::get('/Flights','ClientController@index');
 // Route to post clitnt info
 Route::post('store','ClientController@store');
 
-Route::get('ReservationList','ClientController@list');
+// Route::get('ReservationList','ClientController@list');
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
