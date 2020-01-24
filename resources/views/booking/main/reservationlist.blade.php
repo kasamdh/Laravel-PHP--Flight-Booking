@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -40,7 +40,7 @@
       <td>@twitter</td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
