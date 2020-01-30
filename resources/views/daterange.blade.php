@@ -39,7 +39,7 @@
                 <th>Customer Name</th>
                 <th>Item</th>
                 <th>Value</th>
-                            <th>Date</th>
+                <th>Date</th>
             </tr>
            </thead>
        </table>
@@ -48,13 +48,13 @@
  </body>
 </html>
 
-<script>
+<!-- <script>
 $(document).ready(function(){
  $('.input-daterange').datepicker({
   todayBtn:'linked',
   format:'yyyy-mm-dd',
   autoclose:true
- });
+ }); -->
 
  load_data();
 
